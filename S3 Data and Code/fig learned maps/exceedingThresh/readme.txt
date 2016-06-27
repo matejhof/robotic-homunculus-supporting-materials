@@ -1,0 +1,1 @@
+matlab script scrFigLearnedMapsExcThr.m - create figures in .fig format (see example fig060515p1o01column1to12Thr.fig). These figures allow you to zoom and move taxels inside small windows (neurons).

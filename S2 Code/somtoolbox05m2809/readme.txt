@@ -1,0 +1,1 @@
+This package contains SOM toolbox (http://www.cis.hut.fi/projects/somtoolbox/) with two added functions som_seqtrainMod82 and som_bmusDP. Function som_seqtrainMod82 is modified som_seqtrain function from SOM toolbox. Function som_bmusDP is modified som_bmus function from SOM toolbox.
