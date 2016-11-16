@@ -1,4 +1,4 @@
-load('singleTorso1exper1thumbDCut.mat')
+load('torso1exper1thumbDCut.mat')
 addpath ('somtoolbox05m2809');
  o=8;  %map size
   p=8; 

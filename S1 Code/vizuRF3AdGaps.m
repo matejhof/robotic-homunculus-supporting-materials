@@ -19,6 +19,7 @@ function h=vizuRF3AdGaps(sM,TaxPos,Mtest,varargin)
 %            or [left right] for different left and right margins 
 %   markerSizeRed
 %   markerSizeGreen
+%   thresh  value of threshold
 
 markerSizeRed=10;
 markerSizeGreen=10;
@@ -41,7 +42,8 @@ while i<=length(varargin)
      case 'markerSizeGreen', i=i+1; markerSizeGreen = varargin{i}; i=i+1;
      case 'gap', i=i+1; gap = varargin{i}; tightVer=1; i=i+1;      
      case 'marg_h', i=i+1; marg_h = varargin{i}; tightVer=1; i=i+1;    
-     case 'marg_w', i=i+1; marg_w = varargin{i}; tightVer=1; i=i+1;       
+     case 'marg_w', i=i+1; marg_w = varargin{i}; tightVer=1; i=i+1;
+     case 'thresh', i=i+1; threshold = varargin{i}; i=i+1;        
      
         otherwise, argok=0;
     end
